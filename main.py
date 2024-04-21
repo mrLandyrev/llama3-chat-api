@@ -4,7 +4,7 @@ from typing import List, Dict
 ## Instantiate model from downloaded file
 
 llm = Llama(
-    model_path="Meta-Llama-3-8B-Instruct.Q8_0.gguf",
+    model_path="models/Meta-Llama-3-8B-Instruct.Q8_0.gguf",
     chat_format="llama-2",
     n_gpu_layers=30,
     n_ctx=4096,
